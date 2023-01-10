@@ -38,8 +38,8 @@ Atualizar: Servirá para customizar o final de uma url convertida. Aqui o que de
 
   Exemplo:
 
-    <strong>Antes:</strong> http://moove.ry/CvT8P0p7Wd
-    <strong>Depois de atualizado:</strong> http://moove.ry/<strong>TesteDeExemplo</strong>
+    Antes: http://moove.ry/CvT8P0p7Wd
+    Depois de atualizado: http://moove.ry/TesteDeExemplo
     
 Deletar: Servirá para excluir o registro do banco de dados.
 
