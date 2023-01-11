@@ -1,5 +1,5 @@
 <div align="center">
-<img width="160px" heigth="auto" src="https://moovery.com.br/static/media/logoMoovery2.2cf3a421.svg">
+  <img width="160px" heigth="auto" src="https://moovery.com.br/static/media/logoMoovery2.2cf3a421.svg">
 </div>
 
 ## Descrição:
@@ -32,22 +32,24 @@ Obs: Não é obrigatório o uso de <strong>CSS</strong>, mas é interessante que
 
 No backend você deve criar uma API que servirá para realizar as ações vindas do front, são elas:
 
-Busca: Servirá para buscar os dados do banco de dados e retornar para o frontend.
+<strong>Busca:</strong> Servirá para buscar os dados do banco de dados e retornar para o frontend.
 
-Inserir: Aqui você irá receber do front o link original e salavar no banco da seguinte maneira abaixo:
+<strong>Inserir:</strong> Aqui você irá receber do front o link original e salvar no banco da seguinte maneira abaixo:
 
-  Exemplo: http://moove.ry/CvT8P0p7Wd
+  Exemplo:
+    
+      http://moove.ry/CvT8P0p7Wd
   
 O trecho <strong>http://moove.ry/</strong> não deve ser mudado e todas as urls terão isso em comum. O texto aleatório após a última barra deverá ser gerado automáticamente com um tamanho de <strong>10 caracteres</strong> composto apenas por letras (maiúsculas ou minúsculas) e números.
 
-Atualizar: Servirá para customizar o final de uma url convertida. Aqui o que deve ser atualizado, é somente a parte da url que foi gerada automáticamente.
+<strong>Atualizar:</strong> Servirá para customizar o final de uma url convertida. Aqui o que deve ser atualizado, é somente a parte da url que foi gerada automáticamente.
 
   Exemplo:
 
     Antes: http://moove.ry/CvT8P0p7Wd
     Depois de atualizado: http://moove.ry/TesteDeExemplo
     
-Deletar: Servirá para excluir o registro do banco de dados.
+<strong>Deletar:</strong> Servirá para excluir o registro do banco de dados.
 
 No backend, você irá precisar realizar uma conexão com um banco de dados. Existem diversas opções, como: MySQL, PostgreSQL, MongoDB, SQLite e etc. Use o que preferir.
 
@@ -68,11 +70,11 @@ Existem diversas ferramentas pagas e gratuitas para fazer o deploy. Opte, obviam
 
 Exemplos:
 
-https://www.netlify.com/
-https://www.heroku.com/
+- https://www.netlify.com/
+- https://www.heroku.com/
 
-AWS EC2 (Gratuito nos primeiros 12 meses após a criação conta)
-Google Cloud (US$ 300 de créditos para gastar nos próximos 90 dias após criação da conta)
+- AWS EC2 (Gratuito nos primeiros 12 meses após a criação conta)
+- Google Cloud (US$ 300 de créditos para gastar nos próximos 90 dias após criação da conta)
 
 Enfim, existem diversas, use a que lhe servir melhor.
 
