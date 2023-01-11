@@ -80,4 +80,6 @@ Enfim, existem diversas, use a que lhe servir melhor.
 
 Caso precise de um domínio, use o: <strong>freenom.com</strong> para conseguir um grátis por 12 meses.
 
-Boa sorte!
+</br>
+
+<p align="center">Boa sorte! 💜</p>
