@@ -9,6 +9,12 @@ O desafio está dividido em 3 etapas, portanto, faça o que estiver ao seu alcan
 
 OBS: Use as tecnoligias e ferramentas que preferir.
 
+## PRIMEIROS PASSOS:
+
+1. Dê um Fork nesse repositório, isso fará com que o repositório seja copiado para seu GitHub.
+2. Clone o repositório para seu computador, crie uma branch com seu nome e codifique na branch criada.
+3. Após concluido, suba a branch com os arquivos para este repositório e abra um pull request para a main.
+
 ## FRONTEND:
 
 Crie uma página web para que o usuário insira o link original e realize o encurtamento da url.
@@ -54,9 +60,9 @@ O que salvar no banco de dados?
 
 ## DEPLOY: (OPICIONAL)
 
-Está parte não é obrigatória, porém será considerada um diferencial.
+Está parte não é obrigatória, porém será considerada um diferencial caso consiga fazer.
 
-Nessa etapa deve ser feita o deploy da aplicação criada por você, ou seja, você irá disponinilizar o projeto na web para quem quiser acessar. Caso consiga fazer essa etapa, insira o link de acesso em um arquivo readmed.md e suba junto com o projeto.
+Nesta etapa deve ser feito o deploy da aplicação criada por você, ou seja, você irá disponinilizar o projeto na web para quem quiser acessar. Caso consiga fazer essa etapa, insira o link de acesso em um arquivo README2.md e suba junto com o projeto.
 
 Existem diversas ferramentas pagas e gratuitas para fazer o deploy. Opte, obviamente por uma gratuita.
 
@@ -70,4 +76,6 @@ Google Cloud (US$ 300 de créditos para gastar nos próximos 90 dias após cria�
 
 Enfim, existem diversas, use a que lhe servir melhor.
 
-Caso precise de um dominio, use o: <strong>freenom.com</strong> para conseguir um grátis por 12 meses. 
+Caso precise de um domínio, use o: <strong>freenom.com</strong> para conseguir um grátis por 12 meses.
+
+Boa sorte!
