@@ -4,8 +4,7 @@
 
 ## Descrição:
 
-O desafio consiste no desenvolvimento de um encurtador de url tipo o <strong>bitly.com</strong>.
-O desafio está dividido em 3 etapas, portanto, faça o que estiver ao seu alcance e entregue o que conseguiu fazer.
+O desafio consiste no desenvolvimento de um encurtador de url tipo o <strong>bitly.com</strong> e está dividido em 3 etapas, portanto, faça o que estiver ao seu alcance e entregue o que conseguir fazer.
 
 OBS: Use as tecnoligias e ferramentas que preferir.
 
@@ -26,7 +25,7 @@ O que deve ser exibido:
 - Url encurtada
 - Data de criação da url encurtada
 
-Obs: Não é obrigatório o uso de <strong>CSS</strong>, mas é interessante que você utilize as folhas de estilo para dar uma aparência mais amigável aos dados apresentados.
+OBS: Não é obrigatório o uso de <strong>CSS</strong>, mas é interessante que você utilize as folhas de estilo para dar uma aparência mais amigável aos dados apresentados.
 
 ## BACKEND:
 
@@ -80,4 +79,6 @@ Enfim, existem diversas, use a que lhe servir melhor.
 
 Caso precise de um domínio, use o: <strong>freenom.com</strong> para conseguir um grátis por 12 meses.
 
-Boa sorte!
+</br>
+
+<p align="center">Boa sorte! 💜</p>
