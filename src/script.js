@@ -60,23 +60,5 @@ function deletar() {
     })
 }
 
-console.log(linkUrl)
-
-function editar() {
-
-    const edit = document.querySelector('.form-control').innerText = linkUrl.value
-
-    // edit.innerText = linkUrl.value
-}
-
 API()
-editar()
 deletar()
-
-{
-    /* <p id="id">ID</p>
-    <a href="" id="url">url</a>
-    <p id="data">DATA</p>
-    <button>Editar</button>
-    <button id="btnDelete">Deletar</button>  */
-}

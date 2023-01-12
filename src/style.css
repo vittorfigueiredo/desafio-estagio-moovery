@@ -70,6 +70,8 @@ body {
 .url {
     display: flex;
     text-align: center;
+    flex-direction: row-reverse;
+    align-items: center;
     gap: 1.5rem;
     margin-top: 1rem;
     color: #000;
