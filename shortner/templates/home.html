@@ -1,0 +1,88 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>Moovery Shortner Links</title>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <img src="https://moovery.com.br/static/media/logoMoovery2.2cf3a421.svg" alt="">
+        </div>
+
+        <div class="main-container">
+            <h1>Cole a URL para ser encurtada</h1>
+            
+            <div class="form"> 
+                <form method="POST" action='.' id='encurtador'>
+                    {% csrf_token %}
+                    <input class='url' type="text" placeholder="Cole o link aqui" name='link_original'>
+                    <input class='btn' id='btn' type="submit" value='Encurtar URL' onClick="refreshPage()">
+                </form>
+            </div>
+        </div>
+
+        <div class="links">
+            <h1>Links já criados</h1>
+            <table id="links-table">
+                <thead>
+                   <tr>
+                       <th>URL</th>
+                       <th>URL encurtada</th>
+                       <th>Criada em</th>
+                   </tr>
+               </thead>
+           </table>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>        
+        $('#btn').click(function(event) {
+            event.preventDefault();
+            $.ajax({
+                url: '{% url "shortner" %}',
+                type: 'post',
+                dataType: 'json',
+                data: $('form#encurtador').serialize(),
+                success: function(data) {}
+            });
+        });
+
+        $(function() {
+            $.ajax({
+                url: '{% url "links" %}',
+                dataType: 'json',
+                type: 'get',
+                cache: false,
+                success: function(data) {
+                    var event_data = '';
+                    $.each(data.links, function(index, value) {                            
+                        event_data += '<tr>';
+                        event_data += '<td><a href="' + value.url_original + '">' + value.url_original + '</td>';
+                        event_data += '<td><a href="' + '{% url "redirect" url_curta=123 %}'.replace(/123/, value.url_curta) + '">' + value.url_curta + '</td>';
+                        event_data += '<td>' + value.data_hora_de_cadastro.slice(0, -8) + '</td>';
+                        event_data += '</tr>';
+                    });
+                    $("#links-table").append(event_data);
+                },
+                error: function(d) {}
+            });
+        });
+
+        function refreshPage() {
+            window.location.reload();
+        } 
+    </script>
+    
+    
+</body>
+</html>
