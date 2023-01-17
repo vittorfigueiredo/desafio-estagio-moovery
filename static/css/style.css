@@ -1,0 +1,90 @@
+body {
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.form {
+    justify-content: space-between;
+
+}
+
+.url {
+    width: 80%;
+    height: 40px;
+    padding: 10px 16px;
+    font: 17px lato,arial;
+    color: #000;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-right: 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 19%;
+    height: 40px;
+    margin: 0;
+    color: #000;
+    background: #fff;
+    border:none;
+    border-radius: 3px;
+}
+
+.links {
+    margin-top: 4rem;
+    font-color: #fff;
+    text-align: center;
+}
+
+.links h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.links table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.links th {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.links td,
+.links td a {
+    padding: 0.5rem;
+    font-size: 0.725rem;
+    color: #ddd;
+}
